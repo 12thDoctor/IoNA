@@ -5,6 +5,15 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IoNA", "IoNA\IoNA.vbproj", "{C856EB07-44B6-4117-B065-6F60BA5BBE20}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IoNA.Json", "IoNA.Json\IoNA.Json.vbproj", "{02874053-5362-4876-A600-74EA12C40560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON1", "JSON1", "{BA7371B8-2C34-4E2C-8441-338E8FCF8DA1}"
+	ProjectSection(SolutionItems) = preProject
+		JSON\search (1).json = JSON\search (1).json
+		JSON\search (2).json = JSON\search (2).json
+		JSON\search.json = JSON\search.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,10 @@ Global
 		{C856EB07-44B6-4117-B065-6F60BA5BBE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C856EB07-44B6-4117-B065-6F60BA5BBE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C856EB07-44B6-4117-B065-6F60BA5BBE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02874053-5362-4876-A600-74EA12C40560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02874053-5362-4876-A600-74EA12C40560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02874053-5362-4876-A600-74EA12C40560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02874053-5362-4876-A600-74EA12C40560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
